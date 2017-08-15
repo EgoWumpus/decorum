@@ -21,7 +21,7 @@ class Decorum(object):
         #: Wrapped function.
         self._wrapped = None
 
-        #: Function name. Can be overriden with decorated function name,
+        #: Function name. Can be overridden with decorated function name,
         #: depending on values of :py:attr:`assigned`.
         self.__name__ = self.__class__.__name__
 
